@@ -17,7 +17,7 @@ public class Securelogin {
 
     @BeforeEach
     void setUp() {
-        driver = new ChromeDriver();   // works if chromedriver is in PATH
+        driver = new ChromeDriver();  
         driver.manage().window().maximize();
         driver.get("https://the-internet.herokuapp.com/login");
     }
@@ -56,5 +56,6 @@ public class Securelogin {
         }
     }
 }
+
 
 
